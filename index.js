@@ -15,3 +15,6 @@ function destructivelyRemoveLastKitten() {
 function destructivelyRemoveFirstKitten() {
   return kittens.shift()
 }
+function appendKitten(name) {
+  return kittens.slice(name)
+}
